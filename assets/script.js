@@ -64,6 +64,12 @@ function generatePassword() {
   } else {
     return "NOPE"
   }
+
+  if (includeUppercase === "N" && includeLowercase === "N" && includeNumbers === "N" && includeSpecial === "N") {
+    return "NOPE"
+  } 
+
+
 }
 
 
